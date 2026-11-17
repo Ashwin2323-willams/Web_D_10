@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<form>
+<h1>Portfolio</h1>
+<b>Name:</b><input type="text" required>
+<b>Father's Name:</b><input type="text">
+<b>Mother's Name:</b><input type="text">
+<b>Country:</b>
+<select><option>Select Country</option><option>India</option><option>USA</option><option>UK</option></se lect>
+<b>Date of Birth:</b><input type="date">
+<b>Gender:</b>
+<input type="radio" name="g"> Male
+<input type="radio" name="g"> Female
+<input type="radio" name="g"> Other
+<h3>Education Qualification</h3>
+<small>Enter your education details in the table below.</small>
+<table>
+<tr><th>S. No.</th><th>Standard</th><th>Board / University</th><th>Passing Year</th><th>Percentage</th></tr>
+<tr><td>1</td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td></tr>
+ 
+<tr><td>3</td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td></tr>
+</table>
+<b>Selected Course:</b>
+<input type="radio" name="c"> B.Tech
+<input type="radio" name="c"> M.Tech
+<h3>Declaration</h3>
+<input type="checkbox" required>
+I declare that the information given above is correct.
+<p class="buttons">
+<button type="submit">Submit</button>
+<button type="reset">Reset</button>
+</p>
+</form>
+</body>
+</html>
+
+Style.css body {
+font-family: Arial; background: #f1f4fa; padding: 15px; color: #333;
+}
+form {
+background: white; max-width: 850px; margin: auto; padding: 25px;
+border: 1px solid #ddd; border-radius: 8px;
+}
+h1 {
+
+text-align: center; color: #294b70;
+}
+h3 { color: #294b70; }
+input[type=text], input[type=date], select { width: 100%; box-sizing: border-box; padding:
+9px;
+margin: 7px 0 12px; border: 1px solid #ccc; border-radius: 4px;
+}
+table {
+width: 100%;
+border-collapse: collapse; margin: 20px 0;
+}
+th, td {
+border: 1px solid #999; padding: 7px; text-align: center;
+}
+ 
+width: 95%;
+box-sizing: border-box; padding: 7px;
+border: 1px solid #ddd;
+}
+ 
+JCS 308 | WEB DESIGNING LAB
+ 
+button {
+padding: 10px 25px; background: #294b70; color: white;
+border: 0;
+border-radius: 4px; cursor: pointer;
+}
+.buttons { text-align: center; }
+.buttons button:last-child { background: #687586; }
